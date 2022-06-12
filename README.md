@@ -15,7 +15,9 @@ This project was completed in an Anaconda environment which included the followi
 In addition, pgAdmin was used to create and update the SQL database in PostgreSQL.
 
 The initial external data files were sources from Kaggle.com: 
+
 [Bitcoin Kaggle Data](https://www.kaggle.com/datasets/ranugadisansagamage/bitcoin-crypto)
+
 [Ethereum Kaggle Data](https://www.kaggle.com/datasets/ranugadisansagamage/ethereum-crypto-price)
 
 
@@ -23,7 +25,9 @@ The initial external data files were sources from Kaggle.com:
 ## Extract
 
 The data sets were both downloaded as CSV files and placed in a folder in the repository. A Jupyter Notebook was then created to read and extract the CSV files into data frames.
+
 [Bitcoin Historical Data (BTC Dataset)](Resources/BTC-USD.csv)
+
 [Ethereum Historical Data (ETH Dataset)](Resources/ETH-USD.csv)
 
 
@@ -66,7 +70,9 @@ Data from 'raw_combined_df' was loaded into the database as Table 'Crypto'.
 ## Final Product
 
 The finalized tables in the database were exported as CSV files and uploaded into the repository.
+
 [BTC_ETH Table](Outputs/BTC_ETH.csv)
+
 [Crypto Table](Outputs/Crypto.csv)
 
 
@@ -74,9 +80,13 @@ The finalized tables in the database were exported as CSV files and uploaded int
 ### Credits
 
 Collaborators:
+
 [Sanjay Dabra](https://github.com/skdabra30)
+
 [Pranay Nuvvala](https://github.com/nuvvalaps)
 
 Data Sources:
+
 [Bitcoin Kaggle Data](https://www.kaggle.com/datasets/ranugadisansagamage/bitcoin-crypto)
+
 [Ethereum Kaggle Data](https://www.kaggle.com/datasets/ranugadisansagamage/ethereum-crypto-price)
